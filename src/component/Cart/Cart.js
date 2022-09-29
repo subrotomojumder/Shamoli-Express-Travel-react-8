@@ -15,7 +15,7 @@ const Cart = ({selectedVehicle}) => {
             setTime(previewStorage)            
         }
     }, [])
-    const notify = () => toast("Have A Nite Tour and Good Wishes!"); 
+    const notify = () => toast("Have A Nice Tour and Good Wishes!"); 
 
     const totalPrice = selectedVehicle.reduce((previewSum, current) => previewSum + current.ticketPrice, 0);
     const handleBreakTime = (minute) => {

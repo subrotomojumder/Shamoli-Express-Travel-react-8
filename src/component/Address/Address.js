@@ -15,6 +15,7 @@ const Address = () => {
             </div>
             <div className='shadow-xl py-2 bg-zinc-100 rounded-lg pl-4 text-sm'> 
                 <p>Education: BSC / Age: 30</p>
+                <p>Job: Business </p>
                 <p>Email: akborhossain12@gmail.com</p>
             </div>
         </div>
