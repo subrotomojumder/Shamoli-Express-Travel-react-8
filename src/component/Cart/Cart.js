@@ -6,7 +6,8 @@ import './Cart.css';
 
 const Cart = ({selectedVehicle}) => {
     const [time, setTime] = useState()
-   
+   useEffect( ()=>{
+   }, [])
     const totalPrice = selectedVehicle.reduce((previewSum, current) => previewSum + current.ticketPrice, 0);
     const handleBreakTime = (minute) => {
         setTime(minute)
