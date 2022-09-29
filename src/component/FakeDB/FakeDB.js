@@ -3,7 +3,7 @@ const setStorageData = (data) => {
 }
 const getStorageData = () => {
     const stored = localStorage.getItem('minute');
-    return JSON.parse(stored);
+    return stored;
 }
 
 export {

@@ -1,3 +1,5 @@
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import Address from '../Address/Address';
@@ -5,11 +7,16 @@ import { getStorageData, setStorageData } from '../FakeDB/FakeDB';
 import './Cart.css';
 
 const Cart = ({selectedVehicle}) => {
-    const [time, setTime] = useState(' ')
-   useEffect( ()=>{
+    const [time, setTime] = useState(' ');
+    
+    useEffect( ()=>{
         const previewStorage = getStorageData();
-        setTime(previewStorage)
+        if (previewStorage) {
+            setTime(previewStorage)            
+        }
     }, [])
+    const notify = () => toast("Have A Nite Tour and Good Wishes!"); 
+
     const totalPrice = selectedVehicle.reduce((previewSum, current) => previewSum + current.ticketPrice, 0);
     const handleBreakTime = (minute) => {
         setTime(minute)
@@ -37,11 +44,13 @@ const Cart = ({selectedVehicle}) => {
                         </div>
                     </div>
                 </div>
-                <div className='border rounded-lg mt-4 p-1'>
-                    <h3 className='text-orange-400 font-semibold'>Break & Expense Details</h3>
+                <div className='border rounded-lg mt-6 p-1'>
+                    <h3 className='text-orange-400 font-semibold mb-3'>Break & Expense Details</h3>
                     <h5 className='bg-zinc-200 p-2 font-bold rounded-md mt-2'>Total Expense: {totalPrice}.0<span className='text-xs'>Tk</span></h5>
                     <h5 className='bg-zinc-200 p-2 font-bold rounded-md mt-2'>Break Time: {time}</h5>
                 </div>
+                <button onClick={notify} className='btn btn-primary mx-[15%] w-[70%] mt-8'>Activity Completed</button>
+                <ToastContainer />
             </div>
         </div>
     );
