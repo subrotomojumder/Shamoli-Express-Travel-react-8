@@ -31,7 +31,7 @@ const Cart = ({selectedVehicle}) => {
                             <p>20<span className='text-sm lowercase'>m</span></p>
                         </div>
                         <div onClick={()=>handleBreakTime(30)} className='btn btn-warning font-medium rounded-full bg-white w-[46px]'>
-                            <p>30<span className='text-sm lowercase'>m</span></p>
+                            <p>30<span className='text-sm lowercase'>j</span></p>
                         </div>
                     </div>
                 </div>
