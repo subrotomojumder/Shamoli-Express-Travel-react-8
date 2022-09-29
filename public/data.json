@@ -1,0 +1,65 @@
+[
+    {
+      "id": 51,
+      "ticketPrice": 1300,
+      "placeAim": "Laxmipur To Dhaka",
+      "img": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "vehicleType": "AC Bus"
+    },
+    {
+      "id": 52,
+      "ticketPrice": 1200,
+      "placeAim": "Laxmipur To Chittagong",
+      "img": "https://media.istockphoto.com/photos/refueling-station-picture-id503087111?k=20&m=503087111&s=612x612&w=0&h=e627Tbh3Zs8aCa4fQYckeHy1dMJ4FHQlbIXCHYXnf2s=",
+      "vehicleType": "Non AC Bus"
+    },
+    {
+      "id": 53,
+      "ticketPrice": 350,
+      "placeAim": "Laxmipur To ChadPur",
+      "img": "https://media.istockphoto.com/photos/bus-stop-at-station-in-terminal-picture-id1258137605?k=20&m=1258137605&s=612x612&w=0&h=8vfZ2t5pERciIv4xWM4_CUzpUUgnj8-_aTDTUENtAm4=",
+      "vehicleType": "Non AC Bus"
+    },
+    {
+      "id": 54,
+      "ticketPrice": 200,
+      "placeAim": "Laxmipur To Raipur",
+      "img": "https://media.istockphoto.com/photos/public-transportation-bus-picture-id468695862?k=20&m=468695862&s=612x612&w=0&h=9327BGlyC9INjyJBNqZreBqPKX8lGcNktSuNE-De3Lo=",
+      "vehicleType": "Non AC Bus"
+    },
+    {
+      "id": 55,
+      "ticketPrice": 700,
+      "placeAim": "Laxmipur To Feni",
+      "img": "https://media.istockphoto.com/photos/public-trasport-vehicle-city-bus-on-the-street-road-picture-id1333721359?k=20&m=1333721359&s=612x612&w=0&h=vdLEl--Qkxyd5h7V3-JrGfb0ttaDgZ1SqgmVCUWLCfI=",
+      "vehicleType": "Special AC Bus"
+    },
+    {
+      "id": 56,
+      "ticketPrice": 1200,
+      "placeAim": "Laxmipur To Borishal",
+      "img": "https://media.istockphoto.com/photos/white-bus-picture-id910607038?k=20&m=910607038&s=612x612&w=0&h=8yNIcHrTHpshbyRoPOXQHOdeJQH3qj3-3IGkiy1uzV8=",
+      "vehicleType": "AC Bus"
+    },
+    {
+      "id": 57,
+      "ticketPrice": 1800,
+      "placeAim": "Laxmipur To Cox-Bazar",
+      "img": "https://media.istockphoto.com/photos/large-number-of-new-electric-buses-parked-in-the-parking-lot-picture-id1025760762?k=20&m=1025760762&s=612x612&w=0&h=Ry1q2oIt43FEVOYsKzTwuQFqdG7beneUWdwoHJhCK-0=",
+      "vehicleType": "Special AC Bus"
+    },
+    {
+      "id": 58,
+      "ticketPrice": 300,
+      "placeAim": "Laxmipur To Noakhali",
+      "img": "https://media.istockphoto.com/photos/public-bus-in-a-city-picture-id510185007?k=20&m=510185007&s=612x612&w=0&h=de3fjA62fj2Q-WcIubewus_QaT49rFlg-zKSisjUMmc=",
+      "vehicleType": "Non AC Bus"
+    },
+    {
+      "id": 59,
+      "ticketPrice": 2000,
+      "placeAim": "Laxmipur To Foridpur",
+      "img": "https://media.istockphoto.com/photos/blue-city-bus-in-madrid-spain-picture-id1188020794?k=20&m=1188020794&s=612x612&w=0&h=1i1K1ak2Voc-ERUnGdkCQA3AK1qzHEjrB6Hbs9UyiH0=",
+      "vehicleType": "AC Bus"
+    }
+]

@@ -1,0 +1,15 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
+@media screen and (max-width: 800px) {
+    .main-container{
+        grid-template-columns: 3fr 2fr;
+    }
+}
+@media screen and (max-width: 550px) {
+    .main-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
